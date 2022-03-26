@@ -10,3 +10,5 @@ dependencies:
     - tensorflow
     - numpy
     - scikit-learn
+    - ipympl
+    - nodejs
