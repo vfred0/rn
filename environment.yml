@@ -1,0 +1,11 @@
+name: rn
+channels:
+- conda-forge
+- defaults
+dependencies:
+    - matplotlib
+    - seaborn
+    - pandas
+    - jupyterlab
+    - tensorflow
+    - numpy
