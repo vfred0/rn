@@ -2,12 +2,15 @@
 
 Material de la materia redes neuronales.
 
-### Videos
+### Requsitos
 
-[Videos de unidades y clases presenciales](https://www.youtube.com/playlist?list=PLcUKhWwmWVPHC6QzK5s9XPeG30BazvOW9)
+* [git](https://git-scm.com/downloads)
+* [anaconda](https://www.anaconda.com/products/individual) / [minconda](https://docs.conda.io/en/latest/miniconda.html)
 
 
 ### Instalar entorno y correr jupyter lab
+
+[Ejemplo de setup de proyecto en windows](https://www.youtube.com/watch?v=O8YXuHNdIIk)
 
 Para correr las practias es necesario configurar un entorno de conda con las librerias necesarias.
 
@@ -36,15 +39,7 @@ $ mamba env create -f environment.yml
 $ conda activate rn
 ```
 
-**Paso 4**: Reconstruir jupyter lab pasa soportar el mode interactivo.
-
-```bash
-$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
-$ jupyter lab build
-
-```
-
-**Paso 5**: Sobre el directorio del proyecto levantamos jupyter lab.
+**Paso 4**: Sobre el directorio del proyecto levantamos jupyter lab.
 
 ```bash
 $ jupyter lab
@@ -53,5 +48,5 @@ Jupyter Notebook 6.1.4 is running at:
 http://localhost:8888/?token=45efe99607fa6......
 ```
 
-**Paso 6**: Ir a http://localhost:8888.... como se indica en la consola.
+**Paso 5**: Ir a http://localhost:8888.... como se indica en la consola.
 
