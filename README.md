@@ -39,13 +39,12 @@ $ mamba env create -f environment.yml
 $ conda activate rn
 ```
 
-**Paso 4**: Sobre el directorio del proyecto levantamos jupyter lab.
+**Paso 4**: Sobre el directorio del proyecto levantamos jupyter.
 
 ```bash
-$ jupyter lab
-
-Jupyter Notebook 6.1.4 is running at:
-http://localhost:8888/?token=45efe99607fa6......
+$ jupyter notebook
+Or copy and paste this URL:
+    http://localhost:8888/?token=...
 ```
 
 **Paso 5**: Ir a http://localhost:8888.... como se indica en la consola.

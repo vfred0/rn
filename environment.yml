@@ -6,9 +6,10 @@ dependencies:
     - matplotlib
     - seaborn
     - pandas
-    - jupyterlab
+    - jupyter
     - tensorflow
     - numpy
     - scikit-learn
-    - ipympl
-    - nodejs
+    - pip
+    - pip:
+        - rnutil
